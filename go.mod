@@ -3,8 +3,12 @@ module github.com/eyedeekay/aluminumoxynitride
 go 1.17
 
 require (
+	github.com/eyedeekay/checki2cp v0.0.21
+	github.com/eyedeekay/go-I2P-jpackage v1.7.0
 	github.com/eyedeekay/go-ccw v0.0.0-20220311185142-3c9060c2002a
+	github.com/eyedeekay/httptunnel v0.0.0-20210508193128-6e9606d6eb24
 	github.com/mediabuyerbot/go-crx3 v1.3.1
+	i2pgit.org/idk/i2p.plugins.tor-manager v0.0.0-20220319171834-26359e69b62c
 )
 
 require (
@@ -15,11 +19,8 @@ require (
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
-	github.com/eyedeekay/checki2cp v0.0.21 // indirect
-	github.com/eyedeekay/go-I2P-jpackage v1.7.0 // indirect
 	github.com/eyedeekay/go-i2cp v0.0.0-20190716135428-6d41bed718b0 // indirect
 	github.com/eyedeekay/goSam v0.32.31-0.20210415231611-c6d9c0e340b8 // indirect
-	github.com/eyedeekay/httptunnel v0.0.0-20210508193128-6e9606d6eb24 // indirect
 	github.com/eyedeekay/ramp v0.0.0-20190429201811-305b382042ab // indirect
 	github.com/eyedeekay/sam-forwarder v0.32.1 // indirect
 	github.com/eyedeekay/sam3 v0.32.32 // indirect
@@ -48,16 +49,15 @@ require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	github.com/zieckey/goini v0.0.0-20180118150432-0da17d361d26 // indirect
 	github.com/zserge/lorca v0.1.10 // indirect
-	golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce // indirect
-	golang.org/x/net v0.0.0-20211206223403-eba003a116a9 // indirect
-	golang.org/x/sys v0.0.0-20220114195835-da31bd327af9 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2 // indirect
 	gopkg.in/src-d/go-git.v4 v4.13.1 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	howett.net/plist v1.0.0 // indirect
-	i2pgit.org/idk/i2p.plugins.tor-manager v0.0.0-20220319171834-26359e69b62c // indirect
 )
 
 replace github.com/zserge/lorca => github.com/eyedeekay/lorca v0.1.9-0.20220310212707-675ddc22ef10
